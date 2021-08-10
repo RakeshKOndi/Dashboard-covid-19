@@ -8,15 +8,15 @@ const Footer = () => (
     <p className="title">we stand with everyone fighting on the front lines</p>
     <div className="icons-container">
       <img
-        src="https://res.cloudinary.com/dffpcgabr/image/upload/v1628496730/icons/qno7kid7pdmqdq10ayzl.png"
+        src="https://res.cloudinary.com/dffpcgabr/image/upload/v1628578922/icons/ad0i8cmn7ngjvw6toeqd.png"
         alt="follow us github"
       />
       <img
-        src="https://res.cloudinary.com/dffpcgabr/image/upload/v1628496709/icons/wam1oqknrbhnymsvu2nt.png"
+        src="https://res.cloudinary.com/dffpcgabr/image/upload/v1628578948/icons/nqtdhq2zzbjrrthswavx.png"
         alt="follow us instagram"
       />
       <img
-        src="https://res.cloudinary.com/dffpcgabr/image/upload/v1628496745/icons/ogvdkyaalxokhhpyoil6.png"
+        src="https://res.cloudinary.com/dffpcgabr/image/upload/v1628578964/icons/qk9hrmy8yjo8mzpquhb5.png"
         alt="follow us twitter"
       />
     </div>

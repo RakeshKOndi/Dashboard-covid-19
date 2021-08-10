@@ -20,7 +20,7 @@ class AllStates extends Component {
           <p className="confirmed width">{confirmed}</p>
           <p className="active width">{active}</p>
           <p className="recovered width">{recovered}</p>
-          <p className="reduced width">{deceased}</p>
+          <p className="deceased width">{deceased}</p>
           <p className="population width">{population}</p>
         </div>
       </div>

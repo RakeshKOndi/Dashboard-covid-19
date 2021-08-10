@@ -3,6 +3,7 @@ import './App.css'
 import Home from './components/Home'
 import About from './components/About'
 import State from './components/State'
+import Counter from './components/Counter'
 
 const statesList = [
   {
@@ -166,6 +167,7 @@ const App = () => (
         path="/search/:id"
         render={props => <State statesList={statesList} {...props} />}
       />
+      <Counter />
     </Switch>
   </BrowserRouter>
 )

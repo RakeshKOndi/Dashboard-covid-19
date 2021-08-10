@@ -7,6 +7,7 @@ import Footer from '../Footer'
 import Header from '../Header'
 import './index.css'
 import India from '../India'
+import Counter from '../Counter'
 
 class Home extends Component {
   state = {statesInfo: [], isLoading: true, searchInput: ''}
@@ -116,8 +117,8 @@ class Home extends Component {
           <India />
         )}
 
-        <div className="state-info">
-          <div className="state-heading">
+        <div className="statewise-info">
+          <div className="statewise-heading">
             <p className="width">States/UT</p>
             <p className="width">Confirmed</p>
             <p className="width">Active</p>
@@ -129,6 +130,7 @@ class Home extends Component {
             <AllStates statesInfo={each} key={each.stateCode} />
           ))}
         </div>
+        <Counter />
         <div>
           <Footer />
         </div>

@@ -97,18 +97,18 @@
   width: 20px;
   height: 20px;
 }
-.state-info {
+.statewise-info {
   border-radius: 12px;
   border: 1px solid #475569;
 }
 @media (min-width: 1000px) {
-  .state-info {
+  .statewise-info {
     margin-left: 100px;
     margin-right: 110px;
   }
 }
 
-.state-heading {
+.statewise-heading {
   display: flex;
 
   color: #f8fafc;
@@ -117,7 +117,7 @@
   border: 1px solid #475569;
 }
 @media (max-width: 600px) {
-  .state-info {
+  .statewise-info {
     margin-left: 10px;
     margin-right: 10px;
   }
